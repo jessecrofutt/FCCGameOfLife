@@ -1,0 +1,163 @@
+a:link {
+  color: #00aeb3;
+  text-decoration: none; }
+
+a:hover {
+  color: #fff500; }
+
+a:visited {
+  color: #d77900; }
+
+a:active {
+  color: #ff0008; }
+
+body {
+  font-family: "consolas", "", serif;
+  color: #00aeb3;
+  background-color: #000000;
+  margin: 0; }
+
+h1 {
+  color: #00f7fc;
+  margin: 5px; }
+
+.btn-primary, .btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.focus:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+  color: #b3003c;
+  background-image: linear-gradient(#00aeb3, #00f7fc);
+  background-color: #000000;
+  border-color: #00a1a3;
+  padding: 2px;
+  margin: 2px;
+  min-width: 20px;
+  min-height: 28px; }
+
+.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.active.focus,
+.btn-primary.active:hover,
+.btn-primary.focus:active,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:hover {
+  color: black;
+  background-color: #1d66fc;
+  background-image: linear-gradient(#00aeb3, #00f7fc); }
+
+.buttonArea {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 500px; }
+
+.buttonAreaTail {
+  justify-content: center; }
+
+.cell {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-style: ridge;
+  border-width: 1px;
+  border-color: #000e47;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+.gridArea {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+.gridHolder {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid #00aeb3; }
+
+.flexcontainer-column {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+.flexcontainer-row, .buttonAreaTail {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row; }
+
+.horCenter, a, #container {
+  display: flex;
+  justify-content: center; }
+
+.row {
+  display: flex; }
+
+.rowHolder {
+  display: flex; }
+
+.vertCenter, a:link {
+  display: flex;
+  align-items: center; }
+
+#bottomMatter {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  display: flex;
+  flex-flow: column; }
+
+#buttons, #buttonControlArea, #buttonMiscArea, #buttonViewArea {
+  display: flex;
+  justify-content: space-between; }
+
+#buttonViewArea #buttonViewZoomArea {
+  margin: 2px; }
+#buttonViewArea #buttonViewSizeArea {
+  margin: 2px; }
+#buttonViewArea #buttonViewSpeedArea {
+  margin: 2px; }
+
+#container {
+  align-items: center;
+  margin: 0;
+  padding: 0; }
+
+#feedback {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+
+#page {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden; }
+
+/*# sourceMappingURL=GameOfLife.css.map */
